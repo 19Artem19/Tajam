@@ -7201,6 +7201,21 @@ a.text-brown:hover, a.text-brown:focus {
 
 .text-carousel {
   top: 30%; }
+  .text-carousel .text-carousel-line {
+    display: inline-block;
+    border-top: 1px solid #00e0d0;
+    width: 50px;
+    padding: 30px 0; }
+  .text-carousel a {
+    border: 1px solid #00e0d0;
+    padding: 15px 15px;
+    border-radius: 1px;
+    text-decoration: none; }
+  .text-carousel h1 {
+    font-size: 32px;
+    padding-bottom: 30px; }
+  .text-carousel p {
+    padding-bottom: 50px; }
 
 .carousel-indicators {
   position: absolute;
@@ -7233,7 +7248,18 @@ a.text-brown:hover, a.text-brown:focus {
   height: 50px; }
 
 .logo-container .logo-text {
-  color: #02ded0; }
+  color: #02ded0;
+  font-size: 30px; }
+
+.nav-header li {
+  padding: 15px 25px 15px 0; }
+
+.nav-header a {
+  color: #fff !important;
+  font-weight: bold; }
+
+.nav-header a:hover {
+  color: #02ded0 !important; }
 
 /* MEDIA
 @media (max-width: 991px) {

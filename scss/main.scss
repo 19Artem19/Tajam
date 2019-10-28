@@ -71,6 +71,26 @@
 }
 .text-carousel {
   top: 30%;
+  .text-carousel-line {
+    display: inline-block;
+    border-top: 1px solid #00e0d0;
+    width: 50px;
+    padding: 30px 0;
+  }
+  a {
+    border: 1px solid #00e0d0;
+    padding: 15px 15px;
+    border-radius: 1px;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  p {
+    padding-bottom: 50px;
+  }
+ 
 }
 .carousel-indicators {
   position: absolute;
@@ -93,10 +113,10 @@
     background-color: transparent;
     background-clip: padding-box;
     margin: 0 5px 0 0;
+    
 
     opacity: 1;
     transition: opacity 0.6s ease;
-    
 
     &.active {
       background-color: #00e0d0;
@@ -111,10 +131,22 @@
   }
   .logo-text {
     color: #02ded0;
+    font-size: 30px;
   }
 }
 
-
+.nav-header {
+  li {
+    padding: 15px 25px 15px 0;
+  }
+  a {
+    color: $white !important;
+    font-weight: bold;
+  }
+  a:hover {
+    color:#02ded0 !important;
+  }
+}
 
 ////////////////////////////////////////
 /* MEDIA
